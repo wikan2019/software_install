@@ -1,0 +1,6 @@
+unzip matlabR2020_Linux_64.zip get Matlab98R2020a_Linux 64.iso
+
+2,
+ sudo mount -o loop matlab2020a/Matlab98R2020a_Linux\ 64.iso tmp_mount
+
+3, sudo tmp_mount/install
