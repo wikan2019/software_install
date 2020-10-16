@@ -4,3 +4,5 @@ unzip matlabR2020_Linux_64.zip get Matlab98R2020a_Linux 64.iso
  sudo mount -o loop matlab2020a/Matlab98R2020a_Linux\ 64.iso tmp_mount
 
 3, sudo tmp_mount/install
+
+crack 解压秘密：0xx8
