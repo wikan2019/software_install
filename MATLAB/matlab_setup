@@ -1,18 +1,22 @@
-unzip matlabR2020_Linux_64.zip get Matlab98R2020a_Linux 64.iso
+   #### intall Matlb
+        from https://www.jianshu.com/p/a5466682ba3d
 
-2,
- sudo mount -o loop matlab2020a/Matlab98R2020a_Linux\ 64.iso tmp_mount
+    1,download
+       // to write
+链接: https://pan.baidu.com/s/10m_rY5sGNMnbo5Gzijz32g  密码: 2bo9
 
-3, sudo tmp_mount/install
 
-4, sudo cp /media/yjs/ATD_Integration/MATLABR2020a_crack/libmwlmgrimpl.so /usr/local/Polyspace/R2020a/bin/glnxa64/matlab_startup_plugins/lmgrimpl
+    2, unzip matlabR2020_Linux_64.zip get Matlab98R2020a_Linux 64.iso
 
-5, Setting Up matlab Executable
+    3, mount iso 文件
+        sudo mount -o loop matlab2020a/Matlab98R2020a_Linux\ 64.iso tmp_mount
+
+ sudo cp /media/yjs/ATD_Integration/MATLABR2020a_crack/libmwlmgrimpl.so /usr/local/Polyspace/R2020a/bin/glnxa64/matlab_startup_plugins/lmgrimpl
+
+Setting Up matlab Executable
 copy from https://stackoverflow.com/questions/33187141/how-to-call-matlab-script-from-command-line/33231349
 
 1,Adding matlab to the PATH
 An alternative method is to simply add the directory where the matlab executable resides to your PATH. You can do this by modifying your .bash_profile (or .bashrc) file. Your .bash_profile file resides in your home directory at ~/.bash_profile. It is executed every time your user opens the Terminal. To add matlab to the PATH simply append
 
 export PATH=$PATH:/Applications/MATLAB_R2015b.app/bin/
-
-crack 解压秘密：0xx8

@@ -1,0 +1,12 @@
+1,window linux 子系统和 liunx 系统都要装上 ssh
+2, window 防火墙要关闭
+3，设置网络，一根网线直连两台电脑，
+windows 端：ip:192.168.1.1 
+    	    netmask:255.255.255.0
+            gateway:192.168.1.1(与ip相同，此为网关)
+	    dns:不设
+linux 端: static ip: 192.168.1.102
+                 netmast: same as windows
+                 gateway: same as window
+                 dns: same as gateway
+
